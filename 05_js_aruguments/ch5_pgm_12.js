@@ -9,8 +9,7 @@ showPlayerPlace = function (playerName, playerPlace) {
     console.log(playerName.substring(1,2) + " is in " + playerPlace);
     console.log(playerName.substring(1,3) + " is in " + playerPlace);
 
-    //The substring method shows in the array method that is if we take (0,2)
-    //it takes the letters from 0 to 2 but not 2.
+   
 };
 
 player1 = {

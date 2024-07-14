@@ -1,21 +1,12 @@
-var findTotal;
-var displayMenu;
+var message;
+var showMessage;
 
 
-var number1 = 45;
-var number2 = 90;
-var result;
+message = "The moon is looking beautiful!";
 
-findTotal = function () {
-	result = number1 + number2;
+showMessage = function () {
+
+    console.log(msg);
 };
-findTotal(); 
-console.log(result); 
 
-displayMenu = function () {
-	console.log("Please choose an option:");
-	console.log("(1) Print log");
-	console.log("(2) Upload file");
-	console.log("(9) Quit");
-};
-displayMenu();
+showMessage();

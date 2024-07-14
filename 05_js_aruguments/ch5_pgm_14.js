@@ -1,12 +1,11 @@
 var showLine = function (length) {
-    var line = "******************************"; // a long string of asterisks
+    var line = "******************************"; 
     console.log(line.substring(0, length));
 };
 
 var showPlayerName = function (playerName) {
     var nameLength = playerName.length;
-    var boxWidth = nameLength + 4; // Adding 4 for the spaces and the border
-
+    var boxWidth = nameLength + 4; 
     showLine(boxWidth);
     console.log("* " + playerName + " *");
     showLine(boxWidth);
@@ -25,12 +24,12 @@ var showPlayerInfo = function (playerName, playerPlace, playerHealth) {
 
     showPlayerName(playerName);
 
-    showLine(28); // A line for separation
+    showLine(28); 
 
     showPlayerPlace(playerName, playerPlace);
     showPlayerHealth(playerName, playerHealth);
 
-    showLine(28); // A line for separation
+    showLine(28); 
     console.log("");
 };
 
